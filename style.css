@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Yeseva+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFAF3;
+    background-image: url(./images/grape.png);
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+a{  text-decoration: none;  }
+
+/* header */
+.site-header{
+    padding: 43px 180px;
+    display: flex;
+    align-items: center;
+}
+
+.site-nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-right: 50px; 
+    color: #000000;
+}
+
+.site-nav a:hover{  color: #C08D5D;  }
+
+.nav-logo{  padding-right: 80px;    }
+
+.header-line{
+    content: '>';
+    display: inline-block;
+    width: 470px;
+    height: 1px;
+    background-color: #C08D5D;
+    margin-left: 180px;
+}
+
+/* main */
+.block-1{   margin: 122px 0 0 180px;    }
+
+.block-1 .sub-title{
+    display: flex;
+    align-items: center;
+}
+
+.block-1 .sub-title h2{
+    color: #3F4042;
+    font-family: 'Yeseva One', serif;
+    font-weight: 400; 
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding-right: 23px;
+}
+
+.block-1 h1{
+    color: #3F4042;
+    font-family: 'Yeseva One', serif;
+    font-weight: 400; 
+    font-size: 70px;
+    letter-spacing: 4.2px;
+}
+
+.wave-line{   margin: 32px 0 26px 0;    }
+
+.block-1 p{
+    color: #3F4042;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.08px;
+    line-height: 147.6%;
+    width: 535px;
+    margin-bottom: 72px;
+}
+
+.block-1 .block-1-link{
+    display: inline-block;
+    padding-left: 17px;
+    margin-bottom: 63px;
+    line-height: 64px;
+
+    color: #3F4042;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    border: 2px solid #C08D5D;
+}
+
+.block-1 .block-1-link:after{
+    content: '>';
+    display: inline-block;
+    width: 61px;
+    height: 64px;
+    background-color: #C08D5D;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 17px;
+}
+
+.btn-to-bottom-pt{
+    display: flex;
+    justify-content: center;
+}
